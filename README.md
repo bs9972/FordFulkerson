@@ -1,4 +1,7 @@
-# FordFulkerson
+# Ford-Fulkerson
 
 Ford-Fulkerson 알고리즘 
-  정의 :
+
+## Ford-Fulerson 알고리즘 정의 
+
+  
