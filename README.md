@@ -34,12 +34,30 @@ Edmond-Karp 알고리즘 (BFS 방식)
 Dinic 알고리즘 (BFS 방식과 DFS방식)   
 
 ---
-### 실행 결과 및 성능 분석
+## 동작 방식
+```
+1. 노드 개수와 노드들 간 용량 입력
+2.
+x. 계산된 결과값과 프로그래밍된 값이 같다면 ture를 출력한다.
+```
+## 예시 계산
+0에서 3으로 가는 경로 하나를 찾는다.  
+![001](https://user-images.githubusercontent.com/101388180/165842300-2b97d083-fb6d-4cfa-8ad2-c822e63ffbc0.PNG)
+
+0->1->2->3
+0->1->3
+
+## 실행 결과
 Edmond-Karp 알고리즘 실행 결과 
 ![Edmond karp 결과값](https://user-images.githubusercontent.com/101388180/165828009-165a2f2a-25ef-4a84-8e07-c57b46b59fb3.PNG)
 
 Dinic 알고리즘 실행 결과
 ![Dinic 결과값](https://user-images.githubusercontent.com/101388180/165828037-b3c3d1ab-6f89-490a-bc7e-0ab6fc6fd8e0.PNG)
+## 성능 분석
+추가 조사 결과
+포드-풀커슨의 시간복잡도는 O( (|E|+|V|) * F ) 이고, 애드몬드-카프의 시간복잡도는 O( |V| * (|E|^2) ) 이므로,
 
-# 결론
-
+E : 간선
+V : 정점
+F : 최대 유량
+문제의 Flow(최대 유량)가 적고, Edge(간선)가 많으면 오히려 포드-풀커슨 알고리즘이 효율적일 수 있습니다.
