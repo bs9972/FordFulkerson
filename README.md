@@ -30,6 +30,7 @@ DFS 방식을 이용한 ford-fulkerson 알고리즘
 
 ---
 ### 실행 결과 및 성능 분석
+![Edmond karp 결과값](https://user-images.githubusercontent.com/101388180/165814101-6b7a76cd-810b-45d9-883c-eea342c249c8.PNG)
         사진첨부
 
 # 결론
