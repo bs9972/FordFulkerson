@@ -24,14 +24,15 @@ Greedy 알고리즘을 이용해 최대 유량 문제을 계산하는 것
 1970년 Dinic 알고리즘은 유량 상쇄를 통한 탐색 순서에 대한 방법론이 추가된 알고리즘이 Yeflim에 의하여 발표되었다. 이 알고리즘은 BFS와 DFS를 결합하여 알고리즘을 해결 하였다.  
 1972년 Edmond-Karp 알고리즘은 Dinic과 함께 연구하다가 Edmond와 Karp가 독자적으로 BFS 탐색법을 통하여 Dinic알고리즘보다 좀더 시간적으로 효율적인 즉 시간복잡도가 더좋은 알고리즘을 발표하였다.  
 ## Ford-Fulkerson 알고리즘의 경로 탐색법에 따른 알고리즘 종류
-Edmond-Karp 알고리즘 (BFS 방식) 
-Dinic 알고리즘 (BFS 방식과 DFS방식)  
-DFS 방식을 이용한 ford-fulkerson 알고리즘 
+Edmond-Karp 알고리즘 (BFS 방식)  
+Dinic 알고리즘 (BFS 방식과 DFS방식)   
+DFS 방식을 이용한 ford-fulkerson 알고리즘   
 
 ---
 ### 실행 결과 및 성능 분석
+
+Edmond-Karp 알고리즘 실행 결과 
 ![Edmond karp 결과값](https://user-images.githubusercontent.com/101388180/165814101-6b7a76cd-810b-45d9-883c-eea342c249c8.PNG)
-        사진첨부
 
 # 결론
 
